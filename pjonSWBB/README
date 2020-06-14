@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Pjon Padded Jittering Data Link PJDL V4.1 (SOFTWAREBITBANG - SWBB)
+-------------------------------------------------------------------------------
+
+This is the capture of the traffic between two stm32f103c (blue pill) programmed using the library of Pjon available on Platformio.io using arduino framework under the example of Pjon/ARDUINO/Local/SoftwareBitBang/SendAndRecive/device1 and device2.
+
+Details:
+https://www.pjon.org/PJDL-specification-v4.1.php
+https://www.pjon.org/SoftwareBitBang.php
+
+Logic analyzer setup
+--------------------
+
+The logic analyzer used was a Lcsoft CY7C68013A Mini Board clone of the Saleae Logic.
+
+  Channel       DS2432 pin
+  ------------------------
+   D0        Data line
+
+Pulseview was used to capture the trace with the following parameters:
+
+  - sample rate: 24 MHz
+  - samples: 50 M
+  
+
+pjdlv41.sr
+---------
+
+Device 1 has bus address 44 and Device 2 has bus address 45.
+
+The device 1 send the byte "B" to device 2.
+The device 2 receive the data, and check for the "B" payload, blink a led and then respond sending a message with the same "B" Payload to device 1.
+
+The speed mode used is mode 1
+
+
