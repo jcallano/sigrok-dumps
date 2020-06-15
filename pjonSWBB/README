@@ -37,10 +37,10 @@ MODE	Data bit duration	Padding bit duration	Pad-data ratio	Bandwidth	Range
 
 The protocol is software implemented in the micro controller and the micro controller need to listen actively to be able to catch the communication. In this example the time set for communication listening is 500ms.
 
-We can see 3 tipes of frames in this dump, isolated in the following files:
+We can see 3 typeses of frames in this dump, isolated in the following files:
 
 decoder.sr
-Timing and markers set to manual decode the frame. In file decode1.jpg you can se the Dataframe Components.
+Timing and markers set to manual decode the frame. In file decode1.jpg you can se the Data frame Components.
 Device 45 is sending "B" to Device 44 with the configuration header with AKC bit set and Tx ID bit set
 
 dataframe2.sr
