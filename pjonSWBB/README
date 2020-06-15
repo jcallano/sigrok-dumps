@@ -11,26 +11,45 @@ https://www.pjon.org/SoftwareBitBang.php
 Logic analyzer setup
 --------------------
 
-The logic analyzer used was a Lcsoft CY7C68013A Mini Board clone of the Saleae Logic.
+The logic analyzer used was a No name LHT00SU1: It is a clone of the CWAV USBee AX-Pro
+captured with analog channel 0 and converted to logical levels to avoid spurious spikes appearing on digital channels.
 
   Channel       DS2432 pin
   ------------------------
-   D0        Data line
+   A0        Data line
 
 Pulseview was used to capture the trace with the following parameters:
 
-  - sample rate: 24 MHz
-  - samples: 50 M
+  - sample rate: 4 MHz
+  - samples: 2 M
   
 
-pjdlv41.sr
+pjdllht.sr
 ---------
 
 Device 1 has bus address 44 and Device 2 has bus address 45.
 
 The device 1 send the byte "B" to device 2.
 The device 2 receive the data, and check for the "B" payload, blink a led and then respond sending a message with the same "B" Payload to device 1.
+The speed mode used is mode 1:
+MODE	Data bit duration	Padding bit duration	Pad-data ratio	Bandwidth	Range
+1	   44	     		  	116		 2.636	1.95kB/s - 15625Bd	2000m
 
-The speed mode used is mode 1
+The protocol is software implemented in the micro controller and the micro controller need to listen actively to be able to catch the communication. In this example the time set for communication listening is 500ms.
+
+We can see 3 tipes of frames in this dump, isolated in the following files:
+
+decoder.sr
+Timing and markers set to manual decode the frame. In file decode1.jpg you can se the Dataframe Components.
+Device 45 is sending "B" to Device 44 with the configuration header with AKC bit set and Tx ID bit set
+
+dataframe2.sr
+Raw data of Device 44is sending "B" to Device 45 with the configuration header with AKC bit set and Tx ID bit set
+
+failedack.sr
+
+In this Data frame we can evidence the lack of ack of the receiving device. In this case after a preconfigured waiting time the message is re-schedule for sending. This happens in this example probably because in that moment the receiving device was not listening when communication was started.
+
+
 
 
