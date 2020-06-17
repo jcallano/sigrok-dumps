@@ -12,20 +12,20 @@ Logic analyzer setup
 --------------------
 
 The logic analyzer used was a No name LHT00SU1: It is a clone of the CWAV USBee AX-Pro
-captured with analog channel 0 and converted to logical levels to avoid spurious spikes appearing on digital channels.
-
-  Channel       DS2432 pin
-  ------------------------
-   A0        Data line
-
+   
 Pulseview was used to capture the trace with the following parameters:
 
   - sample rate: 4 MHz
-  - samples: 2 M
+  - samples: 5 M
   
 
-pjdllht.sr
----------
+capturadigital.sr
+
+  Channel      PB9 pin
+  ------------------------
+   D1        Data line
+
+Digital Dump captured on digital channel 1  
 
 Device 1 has bus address 44 and Device 2 has bus address 45.
 
@@ -34,6 +34,21 @@ The device 2 receive the data, and check for the "B" payload, blink a led and th
 The speed mode used is mode 1:
 MODE	Data bit duration	Padding bit duration	Pad-data ratio	Bandwidth	Range
 1	   44	     		  	116		 2.636	1.95kB/s - 15625Bd	2000m
+
+The protocol is software implemented in the micro controller and the micro controller need to listen actively to be able to catch the communication. In this example the time set for communication listening is 500ms.
+
+We can see 3 types of data frames in this dump, isolated in the following files:
+
+
+pjdllht.sr
+---------
+
+captured with analog channel 0 and converted to logical levels to avoid spurious spikes appearing on digital channels.
+
+  Channel      PB9 pin
+  ------------------------
+   A0        Data line
+
 
 The protocol is software implemented in the micro controller and the micro controller need to listen actively to be able to catch the communication. In this example the time set for communication listening is 500ms.
 

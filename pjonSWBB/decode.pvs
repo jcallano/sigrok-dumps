@@ -1,0 +1,897 @@
+[General]
+decode_signals=1
+meta_objs=139
+views=1
+
+[A0]
+color=4291076096
+conv_option0_key=preset
+conv_option0_value=2
+conv_options=1
+conversion_type=1
+enabled=true
+name=A0
+
+[decode_signal0]
+channel0\assigned_signal_name=A0
+channel0\initial_pin_state=2
+channel0\name=Data
+channels=1
+color=4281510450
+conv_options=0
+conversion_type=0
+decoder0\ann_class0\visible=true
+decoder0\ann_class1\visible=true
+decoder0\ann_class2\visible=true
+decoder0\id=timing
+decoder0\option0\name=avg_period
+decoder0\option0\type=x
+decoder0\option0\value=@ByteArray(\x1\0\0\0\0\0\0\0)
+decoder0\options=1
+decoder0\row0\visible=true
+decoder0\row1\visible=false
+decoder0\row2\visible=true
+decoder0\visible=true
+decoders=1
+enabled=true
+name=Timing
+
+[meta_obj0]
+assoc_view=0
+text=SyncStart
+time=22 serialization::archive 17 0 0 0 0 12549 81426669 8738321 42048794 82159785 71381995 -8 0 0 6
+type=time_marker
+
+[meta_obj1]
+assoc_view=0
+text=Bytesync
+time=22 serialization::archive 17 0 0 0 0 59936 16585324 94134766 79850710 72386208 19381836 -8 0 0 6
+type=time_marker
+
+[meta_obj10]
+assoc_view=0
+text=newbytesync
+time=22 serialization::archive 17 0 0 0 0 111948 57945220 66764225 18723582 57635211 83551206 -8 0 0 6
+type=time_marker
+
+[meta_obj100]
+assoc_view=0
+text=A
+time=22 serialization::archive 17 0 0 0 0 775631 88011140 92186674 73016708 62180022 95423019 -8 0 0 6
+type=time_marker
+
+[meta_obj101]
+assoc_view=0
+text=H
+time=22 serialization::archive 17 0 0 0 0 780126 30000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj102]
+assoc_view=0
+text=G
+time=22 serialization::archive 17 0 0 0 0 784621 70000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj103]
+assoc_view=0
+text=F
+time=22 serialization::archive 17 0 0 0 0 789085 0 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj104]
+assoc_view=0
+text=E
+time=22 serialization::archive 17 0 0 0 0 793576 60000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj105]
+assoc_view=0
+text=D
+time=22 serialization::archive 17 0 0 0 0 798125 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj106]
+assoc_view=0
+text=C
+time=22 serialization::archive 17 0 0 0 0 802652 80000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj107]
+assoc_view=0
+text=B
+time=22 serialization::archive 17 0 0 0 0 807112 32058494 18016511 81935350 55151772 82572213 -8 0 0 6
+type=time_marker
+
+[meta_obj108]
+assoc_view=0
+text=L
+time=22 serialization::archive 17 0 0 0 0 822746 10000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj109]
+assoc_view=0
+text=I
+time=22 serialization::archive 17 0 0 0 0 827228 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj11]
+assoc_view=0
+text=O
+time=22 serialization::archive 17 0 0 0 0 127695 82601872 48950141 64373314 29746002 19204217 -8 0 0 6
+type=time_marker
+
+[meta_obj110]
+assoc_view=0
+text=J
+time=22 serialization::archive 17 0 0 0 0 831843 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj111]
+assoc_view=0
+text=M
+time=22 serialization::archive 17 0 0 0 0 836313 80000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj112]
+assoc_view=0
+text=N
+time=22 serialization::archive 17 0 0 0 0 840759 3426874 9905317 29374195 60497262 47335 -8 0 0 6
+type=time_marker
+
+[meta_obj113]
+assoc_view=0
+text=O
+time=22 serialization::archive 17 0 0 0 0 845235 70000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj114]
+assoc_view=0
+text=P
+time=22 serialization::archive 17 0 0 0 0 849793 49765629 9643706 9720317 58722921 25805247 -8 0 0 6
+type=time_marker
+
+[meta_obj115]
+assoc_view=0
+text=Q
+time=22 serialization::archive 17 0 0 0 0 854682 73666602 38898586 59546474 65372005 81751999 -8 0 0 6
+type=time_marker
+
+[meta_obj116]
+assoc_view=0
+text=R
+time=22 serialization::archive 17 0 0 0 0 858827 96104384 9490515 11791294 61382587 42577655 -8 0 0 6
+type=time_marker
+
+[meta_obj117]
+assoc_view=0
+text=S
+time=22 serialization::archive 17 0 0 0 0 874672 99288259 89534118 69558945 48255942 78837516 -8 0 0 6
+type=time_marker
+
+[meta_obj118]
+assoc_view=0
+text=T
+time=22 serialization::archive 17 0 0 0 0 879189 60240735 25867417 32803883 93387598 63306612 -8 0 0 6
+type=time_marker
+
+[meta_obj119]
+assoc_view=0
+text=U
+time=22 serialization::archive 17 0 0 0 0 883839 5338871 66178630 56225186 73836653 70183764 -8 0 0 6
+type=time_marker
+
+[meta_obj12]
+assoc_view=0
+text=P
+time=22 serialization::archive 17 0 0 0 0 132157 90000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj120]
+assoc_view=0
+text=V
+time=22 serialization::archive 17 0 0 0 0 888290 0 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj121]
+assoc_view=0
+text=W
+time=22 serialization::archive 17 0 0 0 0 892836 50000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj122]
+assoc_view=0
+text=X
+time=22 serialization::archive 17 0 0 0 0 897256 4050636 70983771 42333927 65046206 69595036 -8 0 0 6
+type=time_marker
+
+[meta_obj123]
+assoc_view=0
+text=A
+time=22 serialization::archive 17 0 0 0 0 901639 80857451 3339155 45402501 74860462 54699852 -8 0 0 6
+type=time_marker
+
+[meta_obj124]
+assoc_view=0
+text=Z
+time=22 serialization::archive 17 0 0 0 0 906023 57664265 35694539 48471075 84674719 16760892 -8 0 0 6
+type=time_marker
+
+[meta_obj125]
+assoc_view=0
+text=Y
+time=22 serialization::archive 17 0 0 0 0 910673 2762401 76005752 71892378 65123774 23638044 -8 0 0 6
+type=time_marker
+
+[meta_obj126]
+assoc_view=0
+text=B
+time=22 serialization::archive 17 0 0 0 0 926481 17593526 41131630 10516989 80699621 25707497 -8 0 0 6
+type=time_marker
+
+[meta_obj127]
+assoc_view=0
+text=D
+time=22 serialization::archive 17 0 0 0 0 930896 44141815 38867855 41439863 32292114 24106008 -8 0 0 6
+type=time_marker
+
+[meta_obj128]
+assoc_view=0
+text=E
+time=22 serialization::archive 17 0 0 0 0 935397 30000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj129]
+assoc_view=0
+text=F
+time=22 serialization::archive 17 0 0 0 0 939897 93380298 453986 61745892 35470192 88330288 -8 0 0 6
+type=time_marker
+
+[meta_obj13]
+assoc_view=0
+text=Q
+time=22 serialization::archive 17 0 0 0 0 136631 60000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj130]
+assoc_view=0
+text=G
+time=22 serialization::archive 17 0 0 0 0 944446 5627110 27413161 64630447 36065056 54283160 -8 0 0 6
+type=time_marker
+
+[meta_obj131]
+assoc_view=0
+text=H
+time=22 serialization::archive 17 0 0 0 0 948909 90000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj132]
+assoc_view=0
+text=I
+time=22 serialization::archive 17 0 0 0 0 953447 54865592 88999292 84936476 39243135 18507440 -8 0 0 6
+type=time_marker
+
+[meta_obj133]
+assoc_view=0
+text=J
+time=22 serialization::archive 17 0 0 0 0 958185 17622689 406065 15297483 26993284 42147856 -8 0 0 6
+type=time_marker
+
+[meta_obj134]
+assoc_view=0
+text=K
+time=22 serialization::archive 17 0 0 0 0 962680 80000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj135]
+assoc_view=0
+text=L
+time=22 serialization::archive 17 0 0 0 0 967660 43136881 23111189 54294641 98059575 67941932 -8 0 0 6
+type=time_marker
+
+[meta_obj136]
+assoc_view=0
+text=P
+time=22 serialization::archive 17 0 0 0 0 999208 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj137]
+assoc_view=0
+text=Q
+time=22 serialization::archive 17 0 0 0 0 1003990 10820428 4078059 30721903 61729271 4939521 -8 0 0 6
+type=time_marker
+
+[meta_obj138]
+assoc_view=0
+text=R
+time=22 serialization::archive 17 0 0 0 0 1008490 23449825 92969071 96738484 96588734 1734329 -8 0 0 6
+type=time_marker
+
+[meta_obj139]
+assoc_view=0
+text=Q
+time=22 serialization::archive 17 0 0 0 0 1003990 10820428 4078059 30721903 61729271 4939521 -8 0 0 6
+type=time_marker
+
+[meta_obj14]
+assoc_view=0
+text=R
+time=22 serialization::archive 17 0 0 0 0 141193 83854986 14127390 90174019 94372974 16636370 -8 0 0 6
+type=time_marker
+
+[meta_obj140]
+assoc_view=0
+text=R
+time=22 serialization::archive 17 0 0 0 0 1008490 23449825 92969071 96738484 96588734 1734329 -8 0 0 6
+type=time_marker
+
+[meta_obj15]
+assoc_view=0
+text=S
+time=22 serialization::archive 17 0 0 0 0 145674 90000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj16]
+assoc_view=0
+text=T
+time=22 serialization::archive 17 0 0 0 0 150202 90000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj17]
+assoc_view=0
+text=U
+time=22 serialization::archive 17 0 0 0 0 154689 10000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj18]
+assoc_view=0
+text=V
+time=22 serialization::archive 17 0 0 0 0 159210 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj19]
+assoc_view=0
+text=W
+time=22 serialization::archive 17 0 0 0 0 163720 64680557 12364944 78757456 88643585 71776457 -8 0 0 6
+type=time_marker
+
+[meta_obj2]
+assoc_view=0
+text=b
+time=22 serialization::archive 17 0 0 0 0 75662 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj20]
+assoc_view=0
+text=X
+time=22 serialization::archive 17 0 0 0 0 179571 30000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj21]
+assoc_view=0
+text=Y
+time=22 serialization::archive 17 0 0 0 0 184040 90000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj22]
+assoc_view=0
+text=Z
+time=22 serialization::archive 17 0 0 0 0 188520 0 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj23]
+assoc_view=0
+text=A
+time=22 serialization::archive 17 0 0 0 0 193020 94566375 20438895 36980927 29414789 58064960 -8 0 0 6
+type=time_marker
+
+[meta_obj24]
+assoc_view=0
+text=B
+time=22 serialization::archive 17 0 0 0 0 197523 80000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj25]
+assoc_view=0
+text=C
+time=22 serialization::archive 17 0 0 0 0 202029 20000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj26]
+assoc_view=0
+text=D
+time=22 serialization::archive 17 0 0 0 0 206559 80000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj27]
+assoc_view=0
+text=E
+time=22 serialization::archive 17 0 0 0 0 211064 50000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj28]
+assoc_view=0
+text=F
+time=22 serialization::archive 17 0 0 0 0 215561 50000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj29]
+assoc_view=0
+text=H
+time=22 serialization::archive 17 0 0 0 0 231561 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj3]
+assoc_view=0
+text=F
+time=22 serialization::archive 17 0 0 0 0 80135 30000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj30]
+assoc_view=0
+text=I
+time=22 serialization::archive 17 0 0 0 0 236089 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj31]
+assoc_view=0
+text=J
+time=22 serialization::archive 17 0 0 0 0 240606 10000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj32]
+assoc_view=0
+text=K
+time=22 serialization::archive 17 0 0 0 0 245058 70000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj33]
+assoc_view=0
+text=L
+time=22 serialization::archive 17 0 0 0 0 249586 18599953 24370620 773877 6929688 3002750 -8 0 0 6
+type=time_marker
+
+[meta_obj34]
+assoc_view=0
+text=M
+time=22 serialization::archive 17 0 0 0 0 254113 60000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj35]
+assoc_view=0
+text=N
+time=22 serialization::archive 17 0 0 0 0 258662 43526906 31865529 59228349 95795814 16371090 -8 0 0 6
+type=time_marker
+
+[meta_obj36]
+assoc_view=0
+text=O
+time=22 serialization::archive 17 0 0 0 0 263089 87393712 69641480 55614713 55136849 6117674 -8 0 0 6
+type=time_marker
+
+[meta_obj37]
+assoc_view=0
+text=P
+time=22 serialization::archive 17 0 0 0 0 267627 99857189 23443145 45704377 51786916 3701618 -8 0 0 6
+type=time_marker
+
+[meta_obj38]
+assoc_view=0
+text=Q
+time=22 serialization::archive 17 0 0 0 0 283462 90000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj39]
+assoc_view=0
+text=R
+time=22 serialization::archive 17 0 0 0 0 287845 60000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj4]
+assoc_view=0
+text=E
+time=22 serialization::archive 17 0 0 0 0 84647 0 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj40]
+assoc_view=0
+text=S
+time=22 serialization::archive 17 0 0 0 0 292428 42196899 32352858 18890159 97145418 9334485 -8 0 0 6
+type=time_marker
+
+[meta_obj41]
+assoc_view=0
+text=T
+time=22 serialization::archive 17 0 0 0 0 296945 20000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj42]
+assoc_view=0
+text=U
+time=22 serialization::archive 17 0 0 0 0 301366 78076657 85891248 14387958 33294516 41167562 -8 0 0 6
+type=time_marker
+
+[meta_obj43]
+assoc_view=0
+text=V
+time=22 serialization::archive 17 0 0 0 0 305925 65754939 95431352 17246494 44361584 87132008 -8 0 0 6
+type=time_marker
+
+[meta_obj44]
+assoc_view=0
+text=W
+time=22 serialization::archive 17 0 0 0 0 310620 62020633 45451986 41391430 20959617 80165462 -8 0 0 6
+type=time_marker
+
+[meta_obj45]
+assoc_view=0
+text=X
+time=22 serialization::archive 17 0 0 0 0 315075 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj46]
+assoc_view=0
+text=Y
+time=22 serialization::archive 17 0 0 0 0 319643 79861601 75967593 34314625 4092363 94895516 -8 0 0 6
+type=time_marker
+
+[meta_obj47]
+assoc_view=0
+text=Z
+time=22 serialization::archive 17 0 0 0 0 335653 17527635 63331824 13129107 36118910 30536746 -8 0 0 6
+type=time_marker
+
+[meta_obj48]
+assoc_view=0
+text=A
+time=22 serialization::archive 17 0 0 0 0 339953 28003729 5449961 46348039 40438986 30048070 -8 0 0 6
+type=time_marker
+
+[meta_obj49]
+assoc_view=0
+text=B
+time=22 serialization::archive 17 0 0 0 0 344440 34587478 71129024 74774328 92387413 41279318 -8 0 0 6
+type=time_marker
+
+[meta_obj5]
+assoc_view=0
+text=G
+time=22 serialization::archive 17 0 0 0 0 88775 34391683 1195748 89947520 88484733 608620 -8 0 0 6
+type=time_marker
+
+[meta_obj50]
+assoc_view=0
+text=C
+time=22 serialization::archive 17 0 0 0 0 348901 30000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj51]
+assoc_view=0
+text=D
+time=22 serialization::archive 17 0 0 0 0 353381 90000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj52]
+assoc_view=0
+text=E
+time=22 serialization::archive 17 0 0 0 0 357901 54338727 68166214 60053197 48232694 95486978 -8 0 0 6
+type=time_marker
+
+[meta_obj53]
+assoc_view=0
+text=F
+time=22 serialization::archive 17 0 0 0 0 362388 60922477 33845277 88479487 181122 27232142 -8 0 0 6
+type=time_marker
+
+[meta_obj54]
+assoc_view=0
+text=G
+time=22 serialization::archive 17 0 0 0 0 366782 19452398 87689668 8439670 26098370 43945526 -8 0 0 6
+type=time_marker
+
+[meta_obj55]
+assoc_view=0
+text=H
+time=22 serialization::archive 17 0 0 0 0 371437 26041922 30395256 45179955 23022073 87959455 -8 0 0 6
+type=time_marker
+
+[meta_obj56]
+assoc_view=0
+text=I
+time=22 serialization::archive 17 0 0 0 0 387356 30000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj57]
+assoc_view=0
+text=J
+time=22 serialization::archive 17 0 0 0 0 391656 20000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj58]
+assoc_view=0
+text=K
+time=22 serialization::archive 17 0 0 0 0 396231 71417023 84453581 86962471 16224804 78476083 -8 0 0 6
+type=time_marker
+
+[meta_obj59]
+assoc_view=0
+text=L
+time=22 serialization::archive 17 0 0 0 0 400749 70000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj6]
+assoc_view=0
+text=I
+time=22 serialization::archive 17 0 0 0 0 93674 43320536 59409723 60954091 91741544 43435577 -8 0 0 6
+type=time_marker
+
+[meta_obj60]
+assoc_view=0
+text=M
+time=22 serialization::archive 17 0 0 0 0 405453 59362762 53711562 9343570 34744902 84578512 -8 0 0 6
+type=time_marker
+
+[meta_obj61]
+assoc_view=0
+text=N
+time=22 serialization::archive 17 0 0 0 0 409957 47544625 1154806 12363316 57543200 38078556 -8 0 0 6
+type=time_marker
+
+[meta_obj62]
+assoc_view=0
+text=O
+time=22 serialization::archive 17 0 0 0 0 414361 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj63]
+assoc_view=0
+text=P
+time=22 serialization::archive 17 0 0 0 0 418938 20000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj64]
+assoc_view=0
+text=Q
+time=22 serialization::archive 17 0 0 0 0 423332 63963489 32952669 60066658 25112872 39016496 -8 0 0 6
+type=time_marker
+
+[meta_obj65]
+assoc_view=0
+text=R
+time=22 serialization::archive 17 0 0 0 0 428791 36956986 76197647 99940447 99632876 43390874 -8 0 0 6
+type=time_marker
+
+[meta_obj66]
+assoc_view=0
+text=S
+time=22 serialization::archive 17 0 0 0 0 444609 17351191 32763794 31628356 45289862 46202460 -8 0 0 6
+type=time_marker
+
+[meta_obj67]
+assoc_view=0
+text=T
+time=22 serialization::archive 17 0 0 0 0 460463 20000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj68]
+assoc_view=0
+text=U
+time=22 serialization::archive 17 0 0 0 0 464911 70000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj69]
+assoc_view=0
+text=V
+time=22 serialization::archive 17 0 0 0 0 469402 50000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj7]
+assoc_view=0
+text=J
+time=22 serialization::archive 17 0 0 0 0 98143 88231853 70636304 50517702 32368491 20964454 -8 0 0 6
+type=time_marker
+
+[meta_obj70]
+assoc_view=0
+text=W
+time=22 serialization::archive 17 0 0 0 0 473926 80000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj71]
+assoc_view=0
+text=X
+time=22 serialization::archive 17 0 0 0 0 599787 0 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj72]
+assoc_view=0
+text=Y
+time=22 serialization::archive 17 0 0 0 0 615632 50000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj73]
+assoc_view=0
+text=Z
+time=22 serialization::archive 17 0 0 0 0 620150 33663922 69525619 87360468 26525124 98535999 -8 0 0 6
+type=time_marker
+
+[meta_obj74]
+assoc_view=0
+text=A
+time=22 serialization::archive 17 0 0 0 0 624702 27838785 8514314 45375894 21361188 85389467 -8 0 0 6
+type=time_marker
+
+[meta_obj75]
+assoc_view=0
+text=B
+time=22 serialization::archive 17 0 0 0 0 629150 76691491 51238743 85560753 80802211 52297335 -8 0 0 6
+type=time_marker
+
+[meta_obj76]
+assoc_view=0
+text=C
+time=22 serialization::archive 17 0 0 0 0 633702 70866353 90227438 43576179 75638276 27628915 -8 0 0 6
+type=time_marker
+
+[meta_obj77]
+assoc_view=0
+text=D
+time=22 serialization::archive 17 0 0 0 0 638047 74396904 36579182 44205617 95250249 61346987 -8 0 0 6
+type=time_marker
+
+[meta_obj78]
+assoc_view=0
+text=E
+time=22 serialization::archive 17 0 0 0 0 642599 68571766 75567877 2221043 90086314 16164651 -8 0 0 6
+type=time_marker
+
+[meta_obj79]
+assoc_view=0
+text=F
+time=22 serialization::archive 17 0 0 0 0 646841 26780161 25655355 85019915 74303245 61972927 -8 0 0 6
+type=time_marker
+
+[meta_obj8]
+assoc_view=0
+text=K
+time=22 serialization::archive 17 0 0 0 0 102938 52365587 20500576 21597328 28769685 34706394 -8 0 0 6
+type=time_marker
+
+[meta_obj80]
+assoc_view=0
+text=G
+time=22 serialization::archive 17 0 0 0 0 651703 56921491 53653686 39976750 84192450 23629699 -8 0 0 6
+type=time_marker
+
+[meta_obj81]
+assoc_view=0
+text=H
+time=22 serialization::archive 17 0 0 0 0 667468 74024636 52285856 30511659 93469379 28831412 -8 0 0 6
+type=time_marker
+
+[meta_obj82]
+assoc_view=0
+text=I
+time=22 serialization::archive 17 0 0 0 0 671861 96950148 75657015 26892070 55258788 4770132 -8 0 0 6
+type=time_marker
+
+[meta_obj83]
+assoc_view=0
+text=J
+time=22 serialization::archive 17 0 0 0 0 676538 63290210 16598572 9723725 53800863 20168264 -8 0 0 6
+type=time_marker
+
+[meta_obj84]
+assoc_view=0
+text=K
+time=22 serialization::archive 17 0 0 0 0 681002 72069359 69335225 47285733 48669936 73174704 -8 0 0 6
+type=time_marker
+
+[meta_obj85]
+assoc_view=0
+text=L
+time=22 serialization::archive 17 0 0 0 0 685600 50000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj86]
+assoc_view=0
+text=M
+time=22 serialization::archive 17 0 0 0 0 690144 10000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj87]
+assoc_view=0
+text=N
+time=22 serialization::archive 17 0 0 0 0 694685 10000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj88]
+assoc_view=0
+text=O
+time=22 serialization::archive 17 0 0 0 0 699184 60000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj89]
+assoc_view=0
+text=P
+time=22 serialization::archive 17 0 0 0 0 703522 18971135 32971324 76197631 51492464 34918538 -8 0 0 6
+type=time_marker
+
+[meta_obj9]
+assoc_view=0
+text=L
+time=22 serialization::archive 17 0 0 0 0 107419 50000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj90]
+assoc_view=0
+text=Q
+time=22 serialization::archive 17 0 0 0 0 719231 36270055 55010284 37573865 15699314 62770601 -8 0 0 6
+type=time_marker
+
+[meta_obj91]
+assoc_view=0
+text=R
+time=22 serialization::archive 17 0 0 0 0 723764 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj92]
+assoc_view=0
+text=S
+time=22 serialization::archive 17 0 0 0 0 728257 40000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj93]
+assoc_view=0
+text=T
+time=22 serialization::archive 17 0 0 0 0 732714 86832064 29834877 55902629 80949906 78585799 -8 0 0 6
+type=time_marker
+
+[meta_obj94]
+assoc_view=0
+text=U
+time=22 serialization::archive 17 0 0 0 0 737072 34269786 63741022 112119 68449193 83007083 -8 0 0 6
+type=time_marker
+
+[meta_obj95]
+assoc_view=0
+text=V
+time=22 serialization::archive 17 0 0 0 0 741676 46656814 1467494 27051844 55826516 78799755 -8 0 0 6
+type=time_marker
+
+[meta_obj96]
+assoc_view=0
+text=W
+time=22 serialization::archive 17 0 0 0 0 746162 80000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj97]
+assoc_view=0
+text=X
+time=22 serialization::archive 17 0 0 0 0 750649 10000000 0 0 0 0 -8 0 0 6
+type=time_marker
+
+[meta_obj98]
+assoc_view=0
+text=Y
+time=22 serialization::archive 17 0 0 0 0 755242 18868591 10826583 25140784 18080449 54292467 -8 0 0 6
+type=time_marker
+
+[meta_obj99]
+assoc_view=0
+text=Z
+time=22 serialization::archive 17 0 0 0 0 771027 75624113 54568622 67801838 79236707 48351239 -8 0 0 6
+type=time_marker
+
+[view0]
+A0\autoranging=1
+A0\display_type=2
+A0\div_height=48
+A0\neg_vdivs=1
+A0\pos_vdivs=1
+A0\scale_index=2
+offset=22 serialization::archive 17 0 0 0 0 4461 83976356 78157973 45555680 13495581 53183175 -8 0 0 6
+scale=3.5152211349250752e-06
+segment_display_mode=3
+splitter_state=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\0H\0\0\x3\x92\x1\0\0\0\x1\x1\0\0\0\x1\0)
+v_offset=-289
+zero_offset=22 serialization::archive 17 0 0 0 0 0 0 0 0 0 0 0 0 0 6
