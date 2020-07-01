@@ -65,6 +65,16 @@ failedack.sr
 
 In this Data frame we can evidence the lack of ack of the receiving device. In this case after a preconfigured waiting time the message is re-schedule for sending. This happens in this example probably because in that moment the receiving device was not listening when communication was started.
 
+dump1.sr
+Bus id tx  rx = 0.0.0.1 sender id 44 reciver id 45 payload = "01234567890"
+decoder miss sender ID, configuration
+
+
+dump2.sr
+sender id 44 reciver id 45 payload = "01"
+decoder miss sender ID, configuration
+
+
 
 
 
