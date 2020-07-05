@@ -67,12 +67,17 @@ In this Data frame we can evidence the lack of ack of the receiving device. In t
 
 dump1.sr
 Bus id tx  rx = 0.0.0.1 sender id 44 reciver id 45 payload = "01234567890"
-decoder miss sender ID, configuration
-
+timing is not correct due missconfiguration of library pad 112uS bit 41uS
 
 dump2.sr
 sender id 44 reciver id 45 payload = "01"
-decoder miss sender ID, configuration
+timing is not correct due missconfiguration of library pad 112uS bit 41uS
+
+dump3.sr
+sender id 44 reciver id 45 payload = "01234567890123456789" bus 0.0.0.1 info of sender included
+crc32 port 8001
+Fixed timing on library for platform stm32f103 pad config at 115uS and bit 43uS
+now decoder only miss the crc32 detection. :)
 
 
 
