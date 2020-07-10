@@ -1,0 +1,229 @@
+[General]
+decode_signals=2
+meta_objs=10
+views=1
+
+[A0]
+color=4291076096
+conv_options=0
+conversion_type=0
+enabled=false
+name=A0
+
+[D0]
+color=4279638298
+conv_options=0
+conversion_type=0
+enabled=false
+name=D0
+
+[D1]
+color=4287582722
+conv_options=0
+conversion_type=0
+enabled=true
+name=D1
+
+[D2]
+color=4291559424
+conv_options=0
+conversion_type=0
+enabled=true
+name=D2
+
+[D3]
+color=4294277376
+conv_options=0
+conversion_type=0
+enabled=false
+name=D3
+
+[D4]
+color=4293776384
+conv_options=0
+conversion_type=0
+enabled=false
+name=D4
+
+[D5]
+color=4285780502
+conv_options=0
+conversion_type=0
+enabled=false
+name=D5
+
+[D6]
+color=4281623972
+conv_options=0
+conversion_type=0
+enabled=false
+name=D6
+
+[D7]
+color=4285878395
+conv_options=0
+conversion_type=0
+enabled=false
+name=D7
+
+[decode_signal0]
+channel0\assigned_signal_name=D2
+channel0\initial_pin_state=2
+channel0\name=Data
+channels=1
+color=4286722730
+conv_options=0
+conversion_type=0
+decoder0\ann_class0\visible=true
+decoder0\ann_class1\visible=true
+decoder0\ann_class2\visible=true
+decoder0\id=timing
+decoder0\option0\name=avg_period
+decoder0\option0\type=x
+decoder0\option0\value=@ByteArray(\0\0\0\0\0\0\0\0)
+decoder0\options=1
+decoder0\row0\visible=true
+decoder0\row1\visible=true
+decoder0\row2\visible=true
+decoder0\visible=true
+decoders=1
+enabled=true
+name=Timing
+
+[decode_signal1]
+channel0\assigned_signal_name=D2
+channel0\initial_pin_state=2
+channel0\name=DATA
+channels=1
+color=4294764879
+conv_options=0
+conversion_type=0
+decoder0\ann_class0\visible=true
+decoder0\ann_class1\visible=true
+decoder0\ann_class10\visible=true
+decoder0\ann_class2\visible=true
+decoder0\ann_class3\visible=true
+decoder0\ann_class4\visible=true
+decoder0\ann_class5\visible=true
+decoder0\ann_class6\visible=true
+decoder0\ann_class7\visible=true
+decoder0\ann_class8\visible=true
+decoder0\ann_class9\visible=true
+decoder0\id=pjdl
+decoder0\option0\name=idle_add_us
+decoder0\option0\type=x
+decoder0\option0\value=@ByteArray(\x4\0\0\0\0\0\0\0)
+decoder0\option1\name=mode
+decoder0\option1\type=x
+decoder0\option1\value=@ByteArray(\x4\0\0\0\0\0\0\0)
+decoder0\options=2
+decoder0\row0\visible=true
+decoder0\row1\visible=true
+decoder0\row2\visible=true
+decoder0\row3\visible=true
+decoder0\row4\visible=true
+decoder0\visible=true
+decoder1\ann_class0\visible=true
+decoder1\ann_class1\visible=true
+decoder1\ann_class10\visible=true
+decoder1\ann_class11\visible=true
+decoder1\ann_class12\visible=true
+decoder1\ann_class2\visible=true
+decoder1\ann_class3\visible=true
+decoder1\ann_class4\visible=true
+decoder1\ann_class5\visible=true
+decoder1\ann_class6\visible=true
+decoder1\ann_class7\visible=true
+decoder1\ann_class8\visible=true
+decoder1\ann_class9\visible=true
+decoder1\id=pjon
+decoder1\options=0
+decoder1\row0\visible=true
+decoder1\row1\visible=true
+decoder1\row2\visible=true
+decoder1\visible=true
+decoders=2
+enabled=true
+name=PJON
+
+[meta_obj0]
+assoc_view=0
+text=-255053 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 13150873 10522848 7737118 67274480 60785169 54824316 -8 0 0 6
+type=time_marker
+
+[meta_obj1]
+assoc_view=0
+text=-255026 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 13153613 7922882 75663819 6585823 99095165 87033547 -8 0 0 6
+type=time_marker
+
+[meta_obj2]
+assoc_view=0
+text=-255009 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 13155279 38323907 14368483 49339873 49272873 53142398 -8 0 0 6
+type=time_marker
+
+[meta_obj3]
+assoc_view=0
+text=-137982 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 24857977 93321930 5975923 21492039 41539248 82794750 -8 0 0 6
+type=time_marker
+
+[meta_obj4]
+assoc_view=0
+text=-137979 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 24858254 28407046 17619208 18197170 35959237 82927923 -8 0 0 6
+type=time_marker
+
+[meta_obj5]
+assoc_view=0
+text=-131186 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 25537640 62583338 50709266 1300128 18850369 27536158 -8 0 0 6
+type=time_marker
+
+[meta_obj6]
+assoc_view=0
+text=-131157 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 25540501 81115964 84788489 34126633 32920525 44265491 -8 0 0 6
+type=time_marker
+
+[meta_obj7]
+assoc_view=0
+text=-131142 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 25542036 61918234 60665007 34426101 94771001 70797576 -8 0 0 6
+type=time_marker
+
+[meta_obj8]
+assoc_view=0
+text=-131111 \x3bcs
+time=22 serialization::archive 17 0 0 0 0 25545096 65079815 38101179 63996009 42419843 6018804 -8 0 0 6
+type=time_marker
+
+[meta_obj9]
+assoc_view=0
+end_time=22 serialization::archive 17 0 0 0 0 38656196 61793393 94561942 2518398 88165318 97159416 -8 0 0 6
+start_time=22 serialization::archive 17 0 0 0 0 38656098 58197963 40190624 3022276 19560921 47534794 -8 0 0 6
+type=selection
+
+[view0]
+A0\autoranging=1
+A0\display_type=2
+A0\div_height=48
+A0\neg_vdivs=1
+A0\pos_vdivs=1
+A0\scale_index=4
+D0\trace_height=32
+D1\trace_height=32
+D2\trace_height=32
+D3\trace_height=32
+D4\trace_height=32
+D5\trace_height=32
+D6\trace_height=32
+D7\trace_height=32
+offset=22 serialization::archive 17 0 0 0 0 38411380 87981643 98510777 71545655 21953856 62285673 -8 0 0 6
+scale=3.859349123859171e-06
+segment_display_mode=3
+splitter_state=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\0H\0\0\x3\x6\x1\0\0\0\x1\x1\0\0\0\x1\0)
+v_offset=-127
+zero_offset=22 serialization::archive 17 0 0 0 0 0 0 0 0 0 0 0 0 0 6
